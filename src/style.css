@@ -1,0 +1,47 @@
+body {
+    background-color:#0B0C10;
+}
+
+.todo-list{
+    background-color:#1F2833;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #66FCF1;
+    box-shadow:
+    /* The top layer shadow */
+        0 1px 1px #1F2833,
+            /* The second layer */
+        0 10px 0 -5px #C5C6C7,
+            /* The second layer shadow */
+        0 10px 1px -4px #45A29E,
+            /* The third layer */
+        0 20px 0 -10px #eee,
+            /* The third layer shadow */
+        0 20px 1px -9px #66FCF1;
+    padding: 30px;
+}
+
+.todo-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 20px 0;
+    width: 70%;
+    border-bottom: 1px solid #45A29E;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: #66FCF1;
+}
+
+input[type=checkbox] {
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+input[type=checkbox]:focus {
+    outline: 0;
+}
